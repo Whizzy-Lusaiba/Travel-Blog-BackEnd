@@ -13,7 +13,7 @@ app.use(express.json());
 app.use('/', require('./routes/posts'));
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Simple Blog API Running' }); // Fixed: removed extra quote
+  res.json({ message: 'Simple Blog API Running' });
 });
 
 app.listen(PORT, () => {

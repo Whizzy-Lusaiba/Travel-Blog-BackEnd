@@ -9,22 +9,6 @@
   ],
   "routes": [
     {
-      "src": "/post-categories",
-      "dest": "/server.js"
-    },
-    {
-      "src": "/post-list/(.*)",
-      "dest": "/server.js"
-    },
-    {
-      "src": "/post-newest", 
-      "dest": "/server.js"
-    },
-    {
-      "src": "/post-details/(.*)",
-      "dest": "/server.js"
-    },
-    {
       "src": "/(.*)",
       "dest": "/server.js"
     }
